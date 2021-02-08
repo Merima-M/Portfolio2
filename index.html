@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Merima Muratspahić</title>
+</head>
+<body>
+    <section class="welcome-section hero-image">
+        <div class="container">
+            <!--Navbar-->
+        <nav class="main-nav">
+            <a href="index.html"><img src="mmlogo.png" alt="logo"></a>
+            <ul class="main-menu">
+                <li class="navbar-item"><a class="navbar-link" href="index.html#myWork">My Work</a>
+                </li>
+                <li class="navbar-item"><a class="navbar-link" href="index.html#aboutMe">About Me</a>
+                </li>
+                <li class="navbar-item"><a class="navbar-link" href="index.html#contact">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="navbar-item icon"><a class="navbar-link" href="mailto:merima_muratspahic@hotmail.com"><i class="far fa-envelope"></i></a>
+                </li>
+                <li class="navbar-item icon"><a class="navbar-link" href="https://www.linkedin.com/in/merima-muratspahić-b15b15196/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="navbar-item icon"><a class="navbar-link" href="https://github.com/Merima-M"><i class="fab fa-github"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <!--Section A content-->
+        <div class="sectionA">
+            <div class="flex">
+                <div class="text">
+                <h1>Let's succeed together!</h1>
+                <h4>The sky is the limit</h4><br>
+                <a href="index.html#myWork" class="btn btn-primary">MY WORK</a>
+                <a href="index.html#contact" class="btn btn-secondary">HIRE ME</a>
+                </div>
+                <img src="pic1.png" alt="meeting">
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Section B-->
+    <section class="sectionB">
+    <div class="container contentB">
+            <div class="top">
+            <h6 class="head" id="myWork">-MY WORK</h6>
+            <h2>"The beginning is always NOW."</h2>
+            <h4>-Roy Bennett</h4>
+            <br>
+            <p>You can find some of my recent projects here:</p>
+            <a class="projects" href="https://codepen.io/merima-muratspahic"><img id="cp" src="codepen.jpg" alt="codepen"></a>
+            <a class="projects" href="https://github.com/Merima-M"><i class="fab fa-github"></i></a>
+            <br>
+            <p class="side">...or you can click one of these -></p>
+        </div>
+        <div class="proj">
+            
+        <a href="https://codepen.io/merima-muratspahic/full/NWqorzz"
+            target="_blank"><img src="p5.png" class="p5" alt=""></a>
+        <a href="https://codepen.io/merima-muratspahic/full/abZxpLB"
+            target="_blank"><img id="p2" src="p2.png" alt="project2"></a>
+        <a href="https://codepen.io/merima-muratspahic/full/poymEjx"
+            target="_blank"><img id="p1" src="p1.png" alt="project3"></a>
+        </div>
+    </div>
+    </section>
+<!--Section C-->
+    <section class="sectionC">
+        <div class="container">
+           <div class="about">
+            <div class="am"><h6 class="head" id="aboutMe">-ABOUT ME</h6>
+                 <img id="me" src="me.jpg" alt="me">
+            </div>
+            <div class="flex"> 
+                <h3>HI!<BR>I AM</h3>
+                <h2 id="m">MERIMA<BR>MURATSPAHIĆ</h2>
+                <div class="card">
+                    <i class="fas fa-user-graduate">   -bachelor/engineer of information technologies</i><br>
+                    <i class="fas fa-hands-helping">   -volonteer</i><br>
+                    <i class="fas fa-users">   -team worker</i>
+                </div>
+            </div>
+           </div>
+
+        </div>
+    </section>
+    <!--Section D -->
+    <section class="sectionD">
+        <div class="container">
+            <div class="more">
+                <div class="card">
+                    <h6>EDUCATION</h6>
+                    <i class="fas fa-university"></i>
+                    <p>Faculty of Information Technologies</p>
+                    <p><a href="https://www.freecodecamp.org/merima" target="_blank"> Free Code Camp</a></p>
+                    <p><a href="https://www.sololearn.com/Profile/12323391" target="_blank"> SoloLearn</a></p>
+                </div>
+                <div class="card">
+                    <h6>SKILLS</h6>
+                    <i class="fab fa-leanpub"></i>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section E -->
+    <section class="sectionE">
+        <div class="container cont">
+            <div>
+            <h6 class="head" id="contact">-CONTACT</h6>
+            <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
+                <p class="hidden">
+                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                  </p>
+                <div class="form-control">Name:<br>
+                    <input type="text" name="name" placeholder="" required>
+                </div>
+                <div class="form-control">Email:<br>
+                    <input type="email" name="email" placeholder="" required>
+                </div>
+                <div class="form-control">
+                <label for="subject">Message:</label><br>
+    <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn btn-secondary submit">
+            </form>
+            </div>
+            <div class="link">
+            <h3>Let's work together!</h3>
+            <ul class="links">
+                <li><a href="https://www.sololearn.com/Profile/12323391"
+                    target="_blank"><img id="sol" src="https://www.sololearn.com/images/fb-story-icon.jpg"></img>  SoloLearn</a></li>
+                <li><a href="https://www.freecodecamp.org/merima" target="_blank"><i class="fab fa-free-code-camp"></i>  FreeCodeCamp</a></li>
+                <li><a href="https://www.linkedin.com/in/merima-muratspahić-b15b15196/"  target="_blank"><i class="fab fa-linkedin"></i>  LinkedIn</a></li>
+                <li><a href="mailto:merima_muratspahic@hotmail.com"><i class="far fa-envelope"></i>  Email</a></li>
+                <li><a href="https://github.com/Merima-M" target="_blank"><i class="fab fa-github"></i>  GitHub</a></li>
+                <li><a href="https://codepen.io/merima-muratspahic" target="_blank"><i class="fab fa-codepen"></i>  CodePen</a></li>
+            </ul>
+            <img id="meet" src="pic2.png" alt="meeting">
+            </div>
+        </div>
+        
+    </section>
+    <!--Footer -->
+    <footer>
+        <nav class="container">
+            <ul>
+                <li class="navbar-item"><a href="index.html"><img src="mmlogo.png" alt="logo"></a></li>
+                    <a class="navbar-link"  href="index.html"></a>
+                                </li>
+                <li class="navbar-item"><a class="nav-link" href="index.html#myWork">My Work</a>
+
+                </li>
+                <li class="navbar-item"><a class="navbar-link" href="index.html#aboutMe">About Me</a>
+
+                </li>
+                <li class="navbar-item"><a class="navbar-link" href="index.html#contact">Contact</a></li>
+                <li id="copr">&copy; Created by Merima Muratspahić</li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
